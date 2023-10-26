@@ -33,12 +33,12 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: LayoutBuilder(
+    return LayoutBuilder(
         builder: (BuildContext context, BoxConstraints constraints) {
       return CustomPaint(
         size: Size(constraints.maxWidth, constraints.maxHeight),
         painter: MyPainter(),
       );
-    }));
+    });
   }
 }
