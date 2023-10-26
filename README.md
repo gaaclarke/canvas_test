@@ -1,16 +1,11 @@
 # canvas_test
 
-A new Flutter project.
+A minimal Flutter project for testing Canvas.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This can be helpful for reproducing `engine` bugs or seeing the difference
+between Impeller and Skia.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+See also:
+  - https://api.flutter.dev/flutter/dart-ui/Canvas-class.html
